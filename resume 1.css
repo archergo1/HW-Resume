@@ -1,0 +1,87 @@
+
+body{
+    /* display: flex; */
+    /* 不要在body下Css指令，尤其是display:flex，是老師的地雷喔!*/
+}
+.wrap{
+    display:flex;
+    flex-direction: row;
+    margin: 0 auto
+}
+
+.info{
+    width: 280px;
+    border: 4px solid blue;
+    border-right: 2px solid blue;
+    border-left:none
+}
+
+h1{
+    text-align: center;
+}
+
+.info h3{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.info ul{
+    margin-top: 0px;
+}
+
+.mug{
+    height: 250px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+/*參考璟舜的語法*/
+img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.intro{
+    border: 3px solid blue;
+    border-right: none;
+}
+
+.exp{
+    width: 600px;
+    border: 4px solid blue;
+    border-left: 2px solid blue;
+    border-right:none;
+    padding-top: 20px;
+}
+
+.exp ul{
+    margin-top: 0px;
+}
+
+.school{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 20px;
+
+}
+
+.site-time{
+    display: flex;
+    justify-content: space-between;
+}
+
+.square{
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+span{
+    font-weight: bold;
+}
+
+
