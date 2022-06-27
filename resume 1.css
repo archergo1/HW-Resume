@@ -1,12 +1,13 @@
 
-body{
+/* body{
     /* display: flex; */
     /* 不要在body下Css指令，尤其是display:flex，是老師的地雷喔!*/
-}
+
 .wrap{
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
     display:flex;
-    flex-direction: row;
-    margin: 0 auto
 }
 
 .info{
